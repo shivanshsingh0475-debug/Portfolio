@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Shivansh Singh | Portfolio</title>
+  <link rel="stylesheet" href="styles.css">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" rel="stylesheet">
+</head>
+<body>
+
+<!-- Navbar -->
+<header>
+  <nav class="navbar">
+    <h2 class="logo">Shivansh</h2>
+
+    <ul class="nav-links" id="navLinks">
+      <li><a href="#home">Home</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+
+    <div class="hamburger" id="hamburger">
+      <i class="fas fa-bars"></i>
+    </div>
+  </nav>
+</header>
+
+<!-- Hero Section -->
+<section id="home" class="hero">
+  <h1>Hi, I'm Shivansh Singh</h1>
+  <h2><span id="typing"></span></h2>
+  <p>Electronics & Communication Engineer | Developer | Innovator</p>
+</section>
+
+<!-- About -->
+<section id="about">
+  <h2>About Me</h2>
+  <p>
+    I am an Electronics and Communication Engineering student with strong expertise in
+    microcontrollers, cloud technologies, and software development. I enjoy building
+    efficient, scalable, and user-friendly solutions.
+  </p>
+</section>
+
+<!-- Skills -->
+<section id="skills">
+  <h2>Skills</h2>
+
+  <div class="skills-grid">
+    <div class="card"><i class="fas fa-microchip"></i><p>Microcontrollers</p></div>
+    <div class="card"><i class="fab fa-python"></i><p>Python</p></div>
+    <div class="card"><i class="fas fa-code"></i><p>C / C++</p></div>
+    <div class="card"><i class="fab fa-aws"></i><p>AWS / Cloud</p></div>
+    <div class="card"><i class="fab fa-google"></i><p>Google Cloud</p></div>
+    <div class="card"><i class="fab fa-github"></i><p>Git & GitHub</p></div>
+    <div class="card"><i class="fas fa-chart-bar"></i><p>Power BI / Tableau</p></div>
+    <div class="card"><i class="fas fa-brain"></i><p>AI / ML</p></div>
+    <div class="card"><i class="fas fa-pencil-ruler"></i><p>UI/UX (Figma)</p></div>
+  </div>
+</section>
+
+<!-- Contact -->
+<section id="contact">
+  <h2>Contact Me</h2>
+  <p>Email: shivanshsingh0475@gmail.com</p>
+  <p>Phone: +91 8287303624</p>
+
+  <div class="socials">
+    <a href="#"><i class="fab fa-linkedin"></i></a>
+    <a href="#"><i class="fab fa-github"></i></a>
+  </div>
+</section>
+
+<footer>
+  <p>© 2026 Shivansh Singh</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
